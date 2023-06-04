@@ -28,7 +28,7 @@ function playRound(playerSelection, computerSelection)
     playerSelection.toLowerCase()
     
 
-    /* conditions for the game's result */  // is this counting all rock selections at once???? */
+    /* conditions for the game's result */  
     if (playerSelection == 'rock' & computerSelection == 'Rock')
         result = "Draw! Both players choose Rock!"
         
